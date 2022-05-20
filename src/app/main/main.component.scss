@@ -5,8 +5,7 @@ section {
     justify-content: center;
     align-items: center;
     article {
-        width: 90%;
-        max-width: 100%;
+        width: 100%;
         min-height: 50vh;
         background-color: green;
         display: flex;
@@ -14,4 +13,12 @@ section {
         justify-content: center;
         align-items: center;
     }
+    video {
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
+

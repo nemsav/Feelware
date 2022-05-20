@@ -18,6 +18,8 @@
     "@angular/platform-browser": "~13.3.9",
     "@angular/platform-browser-dynamic": "~13.3.9",
     "@angular/router": "~13.3.9",
+    "@flosportsinc/ng-video-autoplay": "^13.3.0",
+    "http-server": "^14.1.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
