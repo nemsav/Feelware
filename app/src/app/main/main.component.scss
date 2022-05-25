@@ -19,7 +19,7 @@ section {
             column-gap: 10%;
             justify-content: center;
             button {
-                background-color: rgb(83, 99, 92);
+                background-color: rgb(141, 157, 150);
                 box-shadow: rgb(0 0 0 / 20%) 0px 20px 16px 0px;
                 color: rgb(255, 255, 255);
                 border-radius: 2px;
@@ -34,8 +34,8 @@ section {
                 line-height: 22px;
                 display: inline-block;
                 padding: 12px 36px;
-                height: 20vh;
-                width: 30vw;
+                height: 15vh;
+                width: 20vw;
                 &:hover {
                     box-shadow: none;
                 }
