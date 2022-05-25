@@ -1,1 +1,34 @@
-<footer>Footer</footer>
+<footer>
+    <div class="info">
+        <div class="copyright">© {{currentDate | date:'yyyy'}} Feelware</div>
+        <div class="agb">
+            <a href="/kontakt">
+                <div>Kontakt</div>
+            </a>
+            <a href="/agb">
+                <div>AGB</div>
+            </a>
+            <a href="/datenschutz">
+                <div>Datenschutz</div>
+            </a>
+            <a href="/impressum">
+                <div>Impressum</div>
+            </a>
+        </div>
+    </div>
+
+    <div class="socialMedia">
+        <div>
+            <a href={{facebookURL}} target="_blank">
+                <fa-icon [icon]="facebookIcon"></fa-icon>
+            </a>
+        </div>
+        <div>
+            <a href={{youtubeURL}} target="_blank">
+                <fa-icon [icon]="youtubeIcon"></fa-icon>
+            </a>
+        </div>
+
+
+    </div>
+</footer>
